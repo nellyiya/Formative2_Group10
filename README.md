@@ -71,9 +71,53 @@ cd your-repo-name
 
 ---
 
+## 🚀 System Demonstration
+
+### Quick Start
+Run the interactive demonstration:
+
+```bash
+# Simple demo (recommended for presentations)
+python simple_demo.py
+
+# Full system demo (with real ML models)
+python system_demo.py
+
+# Windows users can use:
+run_demo.bat
+```
+
+### Demo Features
+✅ **Authorized User Scenarios**
+- Face recognition authentication
+- Voice verification confirmation  
+- Personalized product recommendations
+
+❌ **Unauthorized Attack Simulations**
+- Face spoofing attempts
+- Unknown user detection
+- Security breach prevention
+
+### Transaction Flow
+```
+👤 Face Image → 🔍 Recognition → 🎤 Voice → 🔐 Verification → 🛒 Recommendations
+```
+
+### Sample Output
+```
+🔐 TRANSACTION: Authorized User - Branis
+✅ FACE AUTHENTICATION SUCCESSFUL (89.2% confidence)
+✅ VOICE VERIFICATION SUCCESSFUL (91.5% confidence) 
+🛒 Recommendations: Premium Sports Equipment, Fitness Tracker
+🎉 Transaction completed successfully!
+```
+
+---
+
 ##  Notes
 
 * Make sure to install dependencies listed in `requirements.txt`
+* See `DEMO_DOCUMENTATION.md` for detailed system explanation
 * For testing, preloaded samples are included
 * Update paths if adding new data
 
